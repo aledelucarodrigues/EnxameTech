@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    margin: 0;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+  }
+  
+  * {
+    border: none;
+    outline: none;
+  }
+  
+  .wrapper {
+    width: 96%;
+    margin: 0 auto;
+  
+    border-radius: 12px;
+    background: #fff;
+  }
+
+.about__content {
+    display: grid;
+    grid-template-columns: 68% 30%;
+  }
+  .about {
+    display: flex;
+    gap: 26px;
+    overflow: hidden;
+  }
+  .about__text {
+    padding: 23px;
+    font-size: 23px;
+  }
+  
+  @media (max-width:900px){
+    .about__text {
+      padding: 10px;
+      font-size: 10px;
+      color: red;
+    }
+  }
+  
