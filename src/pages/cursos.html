@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../src/css/pages/cursos.css">
+    <title>Cursos</title>
+  </head>
+  <body>
+    <section
+      class="wrapper"
+      data-aos="zoom-in"
+      data-aos-delay="5000"
+      data-aos-durantion="5000"
+    >
+      <h1>Procure seus curso</h1>
+      <div id="search-container">
+        <!--******************** Input de pesquisa************************** -->
+        <div id="buttons" id="buttons">
+          <button class="button-value" onclick="filterCategoria('all')">
+            Todos os cursos
+          </button>
+          <button class="button-value" onclick="filterCategoria('front')">
+            Front-end
+          </button>
+          <button class="button-value" onclick="filterCategoria('back')">
+            Back-end
+          </button>
+          <button class="button-value" onclick="filterCategoria('dados')">
+            Banco de dados
+          </button>
+        </div>
+      </div>
+      <!--******************** Cards dos cursos vindo do JS************************** -->
+      <div id="cursos" data-aos="zoom-in"></div>
+    </section>
+  </body>
+  <script src="../js/components/cursos.js"></script>
+</html>
