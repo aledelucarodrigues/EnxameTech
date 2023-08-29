@@ -4,8 +4,9 @@ body {
   margin: 0;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
+
 }
 h3 {
   margin: 0;
@@ -29,7 +30,7 @@ h3 {
 
 .about__content {
   display: grid;
-  grid-template-columns: 56% 36%;
+  grid-template-columns: 67% 30%;
 }
 .about {
   display: flex;
@@ -37,12 +38,15 @@ h3 {
   overflow: hidden;
 }
 .about__img {
-  width: 519px;
-  height: 350px;
+  margin-top: 27px;
+  width: 100%;
+  height: 87%;
 }
 .about__img img {
   height: 100%;
   width: 100%;
+  object-fit: cover
+  ;
 }
 .about__text {
   padding: 23px;
@@ -52,83 +56,82 @@ h3 {
 @media (max-width: 900px) {
   .about__text {
     padding: 10px;
-    font-size: 10px;
-    color: red;
+    font-size: 15px;
+  
   }
 }
 
 /* Card of squad */
-
-/* .swiper {
-  width: 100%;
-}
 .swiper {
+
   width: 100%;
 }
-.swiper_wrapper {
+.swiper-wrapper {
   width: 100%;
   height: 35em;
   display: flex;
   align-items: center;
 }
-
-.card {
+#card {
   width: 20em;
   height: 90%;
-  background-color: #ffff;
-  border-radius: 2em;
-  box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 1em;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2);
   padding: 2em 1em;
   display: flex;
   align-items: center;
   flex-direction: column;
+
   margin: 0 2em;
 }
-.swiper_slide:not(.swiper-slide-active) {
+.swiper-slide:not(.swiper-slide-active) {
   filter: blur(1px);
 }
-.card_image {
+
+.card__image {
   width: 10em;
   height: 10em;
   border-radius: 50%;
-  border: 10px solid black;
-  padding: 3px;
+  border: solid 5px black;
   margin-bottom: 2em;
 }
-.card_image img {
+.card__image img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
 }
-.card_title {
+.card__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__title {
   font-size: 1.5em;
   font-weight: 500;
   position: relative;
-  top: .2em;
+  top: 0.2em;
 }
-.card_name{
-  color:  yellow;
-}
-.card_text{
+
+.card__text {
   text-align: center;
-  font-size: medium;
+  font-size: 1.1em;
   margin: 1em 0;
 }
-
-.card_btn{
-  background-color: yellow;
-  color: aliceblue;
-  font-size: 1em;
-  font-weight: 600;
-  border: none;
-  padding: .5em;
-  border-radius: .5em;
-  margin-top: .5em;
+.icons__social__media {
+  display: flex;
+  justify-content: space-between;
+  width: 49%;
+  margin: 23px;
+}
+.icons__social__media i{
+  font-size: 22px;
   cursor: pointer;
-} */
+  transition: 1s;
+}
+.icons__social__media i:hover{
+  color:#FCA311
 
-.swiper {
-  width: 600px;
-  height: 300px;
 }
