@@ -2,7 +2,7 @@
 
 :root {
     --orange: #fca311;
-    --white: #fff;
+    --white: #FFFCF8;
     --black: #000;
     --almostRed: #FE6F20;
     --fonte: 'Montserrat', sans-serif;
@@ -79,9 +79,10 @@ p {
 form {
     background-color: var(--white);
     width: 80%;
-    height: 90%;
+    height: 80%;
     text-align: center;
     border: solid 3px var(--almostRed);
+    border-radius: 1vw;
 }
 
 fieldset {
