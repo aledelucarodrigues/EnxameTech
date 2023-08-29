@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
+
+:root {
+    --orange: #fca311;
+    --white: #fff;
+    --black: #000;
+    --almostRed: #FE6F20;
+    --fonte: 'Montserrat', sans-serif;
+}
+
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+    font-size: 20px;
+}
+
+body {
+    background-color: var(--black);
+}
+
+/* General elements */
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+/* Formulário */
+
+/* BOTÕES INICIAIS */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 8%;
+    margin-bottom: 12px;
+}
+
+.buttons button {
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.buttons button:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+form {
+    background-color: var(--white);
+    width: 80%;
+    height: 90%;
+    text-align: center;
+    border: solid 3px var(--almostRed);
+}
+
+fieldset {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+/* LINHA SUPERIOR */
+
+.linhaSuperior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 15px;
+    gap: 2%;
+}
+
+.linhaSuperior div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.linhaCentral {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.linhaCentral input {
+    margin-bottom: 5px;
+}
+
+.radioElements {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.radioElements div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.linhaInferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 15px;
+    gap: 2%;
+}
+
+.linhaInferior div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+input {
+    border: 2px solid var(--almostRed);
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid var(--black);
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Altera o estilo do label quando o input está selecionado */
+input[type="radio"]:checked + label {
+    font-weight: bold;
+}
+
+.finalizarCadastro {
+    width: 100%;
+}
+
+.finalizarCadastro button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: var(--almostRed);
+    color: var(--white);
+}
+
+.finalizarCadastro button:hover {
+    background-color: var(--white);
+    color: var(--almostRed);
+    border: 2px solid var(--almostRed);
+}
+
+/* @media (min-width: 300px) {
+    
+    .buttons {
+        height: fit-content;
+    }
+
+    .buttons button {
+        width: 150px;
+    }
+
+    .buttons a {
+        height: fit-content;
+    }
+
+    form {
+        width: 100%;
+        height: 100%;
+    }
+
+    fieldset {
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+    }
+
+    .linhaSuperior {
+        flex-direction: column;
+        gap: 5%;
+        height: fit-content;
+    }
+
+    .linhaSuperior div {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .linhaInferior {
+        flex-direction: column;
+        gap: 5%;
+        height: fit-content;
+    }
+
+    .linhaInferior div {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .radioElements {
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .radioElements div {
+        width: 100%;
+    }
+
+    .finalizarCadastro button {
+        width: 100%;
+    }
+    
+    input [type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+        width: 100%;
+    }
+
+} */
