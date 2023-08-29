@@ -1,51 +1,134 @@
 body {
-    background-color: black;
-    padding: 0;
-    margin: 0;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  h3 {
-    margin: 0;
-    font-size: 20px;
-    font-family: Inter;
-    font-weight: 400;
-  }
-  
-  * {
-    border: none;
-    outline: none;
-  }
-  
-  .wrapper {
-    width: 96%;
-    margin: 0 auto;
-  
-    border-radius: 12px;
-    background: #fff;
-  }
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  margin: 0;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+* {
+  border: none;
+  outline: none;
+}
+
+.wrapper {
+  width: 96%;
+  margin: 0 auto;
+
+  border-radius: 12px;
+  background: #fff;
+}
 
 .about__content {
-    display: grid;
-    grid-template-columns: 68% 30%;
-  }
-  .about {
-    display: flex;
-    gap: 26px;
-    overflow: hidden;
-  }
+  display: grid;
+  grid-template-columns: 56% 36%;
+}
+.about {
+  display: flex;
+  gap: 26px;
+  overflow: hidden;
+}
+.about__img {
+  width: 519px;
+  height: 350px;
+}
+.about__img img {
+  height: 100%;
+  width: 100%;
+}
+.about__text {
+  padding: 23px;
+  font-size: 23px;
+}
+
+@media (max-width: 900px) {
   .about__text {
-    padding: 23px;
-    font-size: 23px;
+    padding: 10px;
+    font-size: 10px;
+    color: red;
   }
-  
-  @media (max-width:900px){
-    .about__text {
-      padding: 10px;
-      font-size: 10px;
-      color: red;
-    }
-  }
-  
+}
+
+/* Card of squad */
+
+/* .swiper {
+  width: 100%;
+}
+.swiper {
+  width: 100%;
+}
+.swiper_wrapper {
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 20em;
+  height: 90%;
+  background-color: #ffff;
+  border-radius: 2em;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+  padding: 2em 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 2em;
+}
+.swiper_slide:not(.swiper-slide-active) {
+  filter: blur(1px);
+}
+.card_image {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 10px solid black;
+  padding: 3px;
+  margin-bottom: 2em;
+}
+.card_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card_title {
+  font-size: 1.5em;
+  font-weight: 500;
+  position: relative;
+  top: .2em;
+}
+.card_name{
+  color:  yellow;
+}
+.card_text{
+  text-align: center;
+  font-size: medium;
+  margin: 1em 0;
+}
+
+.card_btn{
+  background-color: yellow;
+  color: aliceblue;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  padding: .5em;
+  border-radius: .5em;
+  margin-top: .5em;
+  cursor: pointer;
+} */
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
