@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro | EnxameTech</title>
+    <link rel="stylesheet" href="/src/css/pages/cadastro.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/icons/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main>
+      <form>
+        <fieldset>
+          <div class="buttons">
+            <a href="login.html"><button>Login</button></a>
+            <a href="#"><button>Cadastro</button></a>
+          </div>
+          <h1>Crie uma conta na EnxameTECH</h1>
+          <div class="linhaSuperior">
+            <div class="nome">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" id="nome" />
+            </div>
+            <div class="sobrenome">
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text" name="sobrenome" id="sobrenome" />
+            </div>
+          </div>
+          <div class="linhaCentral">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" />
+            <label for="celular">Celular</label>
+            <input type="tel" name="celular" id="celular" />
+          </div>
+          <div class="radioElements">
+            <!-- Adicionar elementos radio para estudante e mentor -->
+            <div class="estudante">
+              <input type="radio" name="option" id="estudante" />
+              <label for="estudante">Sou Estudante</label>
+            </div>
+            <div class="mentor">
+              <input type="radio" name="option" id="mentor" />
+              <label for="mentor">Sou Mentor</label>
+            </div>
+          </div>
+          <div class="linhaInferior">
+            <div class="senha">
+              <label for="senha">Senha</label>
+              <input type="password" name="senha" id="senha" />
+            </div>
+            <div class="confirmarSenha">
+              <label for="confirmarSenha">Confirmar Senha</label>
+              <input
+                type="password"
+                name="confirmarSenha"
+                id="confirmarSenha"
+              />
+            </div>
+          </div>
+          <div class="finalizarCadastro">
+            <button>Finalizar cadastro</button>
+          </div>
+          <div class="footer">
+            <p>
+              AO CADASTRAR-SE VOCÊ CONFIRMA QUE VOCÊ LEU E ESTÁ DE ACORDO COM
+              NOSSA POLÍTICA DE PRIVACIDADE, BEM COMO NOSSOS TERMOS DE USO.
+            </p>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
