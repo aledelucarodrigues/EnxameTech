@@ -75,6 +75,10 @@ button:hover {
     background-color: var(--orange);
     color: var(--white);
 }
+.buttons a:hover
+{
+    color: var(--white);
+}
 
 /* Formulário */
 
