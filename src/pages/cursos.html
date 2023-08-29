@@ -7,15 +7,63 @@
     <title>Cursos</title>
   </head>
   <body>
+    <header style="background-color: white;">
+      <div class="banner"> <!-- Banner -->
+        <img src="assets/images/banner_light.svg" alt="">
+      </div>
+      <div class="nav"> <!-- Navegação -->
+        <ul>
+          <li>
+            <a class="atual" href="../../index.html">
+              HOME
+            </a>            
+          </li>
+          <li>
+            <a href="./src/pages/cursos.html">
+              Oportunidades
+            </a>            
+          </li>
+          <li>
+            <a href="">
+              Agendamento
+            </a>            
+          </li>
+          <li>
+            <a href="">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="./src/pages/sobre.html">
+              Sobre Nós
+            </a>            
+          </li>
+        </ul>
+      </div>
+      <div class="user"> <!-- CADASTRO/LOGIN -->
+        <a class="login" href="src/pages/login.html"> <!-- BOTÃO DE LOGIN -->
+          <img src="assets/images/user_light.svg" alt="user icon">
+          <span>
+            ENTRAR
+          </span>
+        </a>
+        <a class="cadastro" href="src/pages/cadastro.html"> <!-- BOTÃO DE CADASTRO -->
+          <span>
+            CRIAR CONTA
+          </span>
+        </a>
+        
+      </div>      
+    </header>
     <section
       class="wrapper"
       data-aos="zoom-in"
       data-aos-delay="5000"
       data-aos-durantion="5000"
     >
-      <h1>Procure seus curso</h1>
+      <h1>Procure seu curso</h1>
       <div id="search-container">
-        <!--******************** Input de pesquisa************************** -->
+        <!--******************** Botões de pesquisa************************** -->
         <div id="buttons" id="buttons">
           <button class="button-value" onclick="filterCategoria('all')">
             Todos os cursos
