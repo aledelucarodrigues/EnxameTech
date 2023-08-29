@@ -1,0 +1,7 @@
+header>div.user>a>img
+{
+  height: 5vh;
+  padding: 2px;
+  border-radius: 100%;
+  border: solid 3px #003096;
+}
