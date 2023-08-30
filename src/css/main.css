@@ -9,6 +9,11 @@
   margin: 0;
   text-decoration: none;
 }
+html, body
+{
+  margin: 0;
+  padding: 0;
+}
 a, a:hover
 {
   text-decoration: none;
@@ -17,14 +22,18 @@ a, a:hover
 /* HEADER */
 header
 {
-  width: 95vw;
+  width: 98%;
   margin: auto;
   display: flex;
   text-align: center;
   justify-items: center;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 20vw;
+}
+header>div.banner
+{
+  margin-left: 2vw;
 }
 header>div.banner>img
 {
@@ -52,6 +61,10 @@ header>div.nav>ul>li>a:hover
 {
   color: #FCA311 !important;
   cursor: default;
+}
+header>div.user
+{
+  margin-right: 2vw;
 }
 header>div.user>a
 {
