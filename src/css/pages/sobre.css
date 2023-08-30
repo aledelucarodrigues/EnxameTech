@@ -3,6 +3,15 @@ h2 {
   text-align: center;
   padding: 37px;
 }
+h3 {
+  margin: 0;
+}
+hr {
+  width: 30%;
+  height: 2px;
+  background-color: black;
+  margin-top: 96px;
+}
 
 .wrapper {
   width: 96%;
@@ -14,7 +23,7 @@ h2 {
 
 .about__content {
   display: grid;
-  grid-template-columns: 67% 30%;
+  grid-template-columns: 100%;
 }
 .about {
   display: flex;
@@ -22,9 +31,7 @@ h2 {
   overflow: hidden;
 }
 .about__img {
-  margin-top: 27px;
-  width: 100%;
-  height: 87%;
+  margin-top: 16px;
 }
 .about__img img {
   height: 100%;
@@ -32,8 +39,9 @@ h2 {
   object-fit: cover;
 }
 .about__text {
-  padding: 23px;
+  padding: 17px 10px 0px 21px;
   font-size: 23px;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
@@ -41,6 +49,17 @@ h2 {
     padding: 10px;
     font-size: 15px;
   }
+}
+.mvp {
+  padding: 23px;
+}
+.mvp__content {
+  padding: 9px;
+  margin-bottom: 34px;
+}
+
+.about__missao {
+  display: flex;
 }
 
 /* Card of squad */
@@ -118,6 +137,7 @@ h2 {
 }
 .icons__social__media i {
   font-size: 30px;
+  color: black;
   cursor: pointer;
   transition: 0.4s;
   font-weight: 600;
