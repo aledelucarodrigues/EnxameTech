@@ -125,3 +125,7 @@ h2 {
 .icons__social__media i:hover {
   color: #fca311;
 }
+a:visited
+{
+  color: black;
+}
