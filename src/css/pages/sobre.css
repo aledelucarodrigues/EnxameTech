@@ -5,7 +5,7 @@ h2 {
 }
 h3 {
   margin: 0;
-  text-align: center;
+  text-align: center !important;
 }
 hr {
   width: 30%;
@@ -53,14 +53,14 @@ hr {
 
 @media (max-width: 660px) {
   .about__missao {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
   .about__img {
-    width: 100%;
+    width: 100% !important;
   }
   .about__text {
-    padding: 0;
+    padding: 0 !important;
   }
 }
 .mvp {
