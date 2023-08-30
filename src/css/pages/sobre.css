@@ -5,12 +5,14 @@ h2 {
 }
 h3 {
   margin: 0;
+  text-align: center;
 }
 hr {
   width: 30%;
   height: 2px;
   background-color: black;
   margin-top: 96px;
+  margin-bottom: 34px;
 }
 
 .wrapper {
@@ -32,6 +34,7 @@ hr {
 }
 .about__img {
   margin-top: 16px;
+  width: 238%;
 }
 .about__img img {
   height: 100%;
@@ -43,11 +46,21 @@ hr {
   font-size: 23px;
   margin: 0;
 }
+.about__text-inition {
+  padding: 23px;
+  font-size: 23px;
+}
 
-@media (max-width: 900px) {
+@media (max-width: 660px) {
+  .about__missao {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__img {
+    width: 100%;
+  }
   .about__text {
-    padding: 10px;
-    font-size: 15px;
+    padding: 0;
   }
 }
 .mvp {
@@ -137,7 +150,7 @@ hr {
 }
 .icons__social__media i {
   font-size: 30px;
-  color: black;
+  color: black !important;
   cursor: pointer;
   transition: 0.4s;
   font-weight: 600;
