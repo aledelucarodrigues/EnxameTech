@@ -70,10 +70,9 @@ p {
     cursor: pointer;
     text-transform: uppercase;
 }
-
-.buttons button:hover, .buttons a:hover {
-    background-color: var(--orange);
-    color: var(--white);
+.buttons button a:hover
+{
+    color: orange;
 }
 
 form {
@@ -204,8 +203,12 @@ input[type="radio"]:checked + label {
 
 .finalizarCadastro button:hover {
     background-color: var(--white);
-    color: var(--almostRed);
     border: 2px solid var(--almostRed);
+    
+}
+.finalizarCadastro button a:hover
+{
+    color: var(--almostRed);
 }
 
 /* @media (min-width: 300px) {
