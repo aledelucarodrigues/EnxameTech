@@ -71,13 +71,16 @@ p {
     text-transform: uppercase;
 }
 
-button:hover {
+.buttons>button:hover{
     background-color: var(--orange);
     color: var(--white);
 }
-.buttons a:hover
+.buttons>button>a:hover{
+color: var(--white);
+}
+div.entrar>button>a:hover
 {
-    color: var(--white);
+    color: var(--almostRed) !important;
 }
 
 /* Formulário */
