@@ -23,9 +23,10 @@ h3 {
 .wrapper {
   width: 96%;
   margin: 0 auto;
-
   border-radius: 12px;
   background: #fff;
+}
+
 #search-container input {
   background-color: transparent;
   width: 60%;
