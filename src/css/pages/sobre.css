@@ -1,23 +1,7 @@
-body {
-  background-color: black;
-  padding: 0;
-  margin: 0;
-}
-
-h1, h2 {
+h1,
+h2 {
   text-align: center;
-
-}
-h3 {
-  margin: 0;
-  font-size: 20px;
-  font-family: Inter;
-  font-weight: 400;
-}
-
-* {
-  border: none;
-  outline: none;
+  padding: 37px;
 }
 
 .wrapper {
@@ -45,8 +29,7 @@ h3 {
 .about__img img {
   height: 100%;
   width: 100%;
-  object-fit: cover
-  ;
+  object-fit: cover;
 }
 .about__text {
   padding: 23px;
@@ -57,13 +40,11 @@ h3 {
   .about__text {
     padding: 10px;
     font-size: 15px;
-  
   }
 }
 
 /* Card of squad */
 .swiper {
-
   width: 100%;
 }
 .swiper-wrapper {
@@ -82,12 +63,13 @@ h3 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  border: 2px solid black;
 
   margin: 0 2em;
 }
-.swiper-slide:not(.swiper-slide-active) {
-  filter: blur(1px);
-}
+/* .swiper-slide:not(.swiper-slide-active) {
+  filter: blur(0.1px);
+} */
 
 .card__image {
   width: 10em;
@@ -114,24 +96,32 @@ h3 {
   position: relative;
   top: 0.2em;
 }
+.card__name {
+  font-size: 2em;
+  font-weight: 700;
+  position: relative;
+  top: 0.2em;
+  margin-bottom: 8px;
+}
 
 .card__text {
   text-align: center;
   font-size: 1.1em;
   margin: 1em 0;
+  font-weight: 600;
 }
 .icons__social__media {
   display: flex;
   justify-content: space-between;
-  width: 49%;
+  width: 57%;
   margin: 23px;
 }
-.icons__social__media i{
-  font-size: 22px;
+.icons__social__media i {
+  font-size: 30px;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.4s;
+  font-weight: 600;
 }
-.icons__social__media i:hover{
-  color:#FCA311
-
+.icons__social__media i:hover {
+  color: #fca311;
 }
