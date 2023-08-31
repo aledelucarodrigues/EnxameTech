@@ -6,7 +6,7 @@ let cursos = {
       escola: "Bootcamp dio",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../assets/images/imgCursos/front.jpg",
+      img: "../../../assets/images/imgCursos/front.jpg",
     },
     {
       categoria: "front",
@@ -14,7 +14,7 @@ let cursos = {
       escola: "Recode-pro",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img:  "../../assets/images/imgCursos/front.jpg",
+      img: "../../assets/images/imgCursos/front.jpg",
     },
     {
       categoria: "front",
@@ -46,7 +46,7 @@ let cursos = {
       escola: "Gerando falcões",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../assets/images/imgCursos/back.jpg",
+      img: "../../../assets/images/imgCursos/back.jpg",
     },
     {
       categoria: "back",
@@ -162,7 +162,8 @@ function filterCategoria(value) {
   elements.forEach((element) => {
     // display de todos os cards
     if (value == "all") {
-      element.classList.remove("hide");git
+      element.classList.remove("hide");
+    } else {
       //checar os elementos por categorias
       if (element.classList.contains(value)) {
         element.classList.remove("hide");
