@@ -5,8 +5,7 @@ h2 {
 }
 h3 {
   margin: 0;
-  text-align: center!important;
-
+  text-align: center !important;
 }
 hr {
   width: 30%;
@@ -48,7 +47,7 @@ hr {
   object-fit: cover;
 }
 .about__text {
-  padding:14px 10px 0px 21px;
+  padding: 14px 10px 0px 21px;
   text-align: justify;
   font-size: 23px;
   margin: 0;
@@ -104,12 +103,12 @@ hr {
   height: 26em;
   background-color: #fff;
   border-radius: 1em;
-  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2) !important;
   padding: 2em 1em;
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 2px solid black;
+  border: 2px solid black !important ;
 
   margin: 0 2em;
 }
