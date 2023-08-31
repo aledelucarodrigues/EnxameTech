@@ -6,7 +6,7 @@ let cursos = {
       escola: "Bootcamp dio",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../../assets/images/imgCursos/front.jpg",
+      img: "https://hermes.dio.me/tracks/cover/f6c2772b-504b-4d94-864a-2f3594f196d7.png",
     },
     {
       categoria: "front",
@@ -14,7 +14,7 @@ let cursos = {
       escola: "Recode-pro",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../assets/images/imgCursos/front.jpg",
+      img: "./",
     },
     {
       categoria: "front",

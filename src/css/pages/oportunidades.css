@@ -21,7 +21,7 @@ h3 {
   background: #fff;
 }
 #buttons {
-  padding: 18px 12px;
+  padding: 24px 14px;
 }
 
 #search-container input {
@@ -45,7 +45,7 @@ h3 {
   border: 2px solid black;
 }
 #search-container button:hover {
-  padding: 0.5em 1em;
+  padding: 0.5em 1em 0.5em 7em;
   margin-left: 0em;
   background-color: black;
   color: white;
@@ -70,6 +70,7 @@ h3 {
     display: flex;
     flex-direction: column;
     width: 100%;
+    text-align: center !important;
   }
 }
 
@@ -101,7 +102,7 @@ h3 {
   display: flex;
   margin: 11px;
 }
-@media (max-width: 1141px) {
+@media (max-width: 5000px) {
   #cursos {
     display: grid;
     grid-template-columns: auto auto;
