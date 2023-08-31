@@ -1,11 +1,12 @@
 h1,
 h2 {
   text-align: center;
-  padding: 37px;
+  padding: 24px 24px 2px 24px;
 }
 h3 {
   margin: 0;
-  text-align: center !important;
+  text-align: center!important;
+
 }
 hr {
   width: 30%;
@@ -32,21 +33,27 @@ hr {
   gap: 26px;
   overflow: hidden;
 }
+/* .about__box {
+  width: 100%;
+  height: 300px;
+} */
 .about__img {
   margin-top: 16px;
-  width: 238%;
+  width: 100%;
 }
 .about__img img {
-  height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .about__text {
-  padding: 17px 10px 0px 21px;
+  padding:12px 10px 0px 21px;
+  text-align: justify;
   font-size: 23px;
   margin: 0;
 }
 .about__text-inition {
+  text-align: justify;
   padding: 23px;
   font-size: 23px;
 }
@@ -72,7 +79,8 @@ hr {
 }
 
 .about__missao {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 /* Card of squad */
@@ -86,8 +94,8 @@ hr {
   align-items: center;
 }
 #card {
-  width: 20em;
-  height: 90%;
+  width: 18em;
+  height: 25em;
   background-color: #fff;
   border-radius: 1em;
   box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2);
@@ -104,8 +112,8 @@ hr {
 } */
 
 .card__image {
-  width: 10em;
-  height: 10em;
+  width: 7em;
+  height: 7em;
   border-radius: 50%;
   border: solid 5px black;
   margin-bottom: 2em;
@@ -123,13 +131,13 @@ hr {
 }
 
 .card__title {
-  font-size: 1.5em;
+  font-size: 19px;
   font-weight: 500;
   position: relative;
   top: 0.2em;
 }
 .card__name {
-  font-size: 2em;
+  font-size: 27px;
   font-weight: 700;
   position: relative;
   top: 0.2em;
@@ -138,9 +146,8 @@ hr {
 
 .card__text {
   text-align: center;
-  font-size: 1.1em;
+  font-size: 18px;
   margin: 1em 0;
-  font-weight: 600;
 }
 .icons__social__media {
   display: flex;
@@ -149,7 +156,7 @@ hr {
   margin: 23px;
 }
 .icons__social__media i {
-  font-size: 30px;
+  font-size: 24px;
   color: black !important;
   cursor: pointer;
   transition: 0.4s;
@@ -158,7 +165,16 @@ hr {
 .icons__social__media i:hover {
   color: #fca311;
 }
-a:visited
-{
+a:visited {
   color: black;
+}
+
+.swiper-pagination {
+  padding: 29px 0px;
+  position: inherit !important
+  ;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black !important;
 }
