@@ -6,7 +6,7 @@ let cursos = {
       escola: "Bootcamp dio",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../../assets/images/imgCursos/front.jpg",
+      img: "../../assets/images/imgCursos/front.jpg",
     },
     {
       categoria: "front",
@@ -14,7 +14,7 @@ let cursos = {
       escola: "Recode-pro",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../../assets/images/imgCursos/front.jpg",
+      img:  "../../assets/images/imgCursos/front.jpg",
     },
     {
       categoria: "front",
@@ -22,7 +22,7 @@ let cursos = {
       escola: "Soul Code",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../../assets/images/imgCursos/front.jpg",
+      img: "../../assets/images/imgCursos/front.jpg",
     },
     {
       categoria: "back",
@@ -30,7 +30,7 @@ let cursos = {
       escola: "Gerando falcões",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../../assets/images/imgCursos/back.jpg",
+      img: "../../assets/images/imgCursos/back.jpg",
     },
     {
       categoria: "back",
@@ -38,7 +38,7 @@ let cursos = {
       escola: "Gerando falcões",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../../assets/images/imgCursos/back.jpg",
+      img: "../../assets/images/imgCursos/back.jpg",
     },
     {
       categoria: "back",
@@ -46,7 +46,7 @@ let cursos = {
       escola: "Gerando falcões",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../../assets/images/imgCursos/back.jpg",
+      img: "../../assets/images/imgCursos/back.jpg",
     },
     {
       categoria: "back",
@@ -54,7 +54,7 @@ let cursos = {
       escola: "Gerando falcões",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../../assets/images/imgCursos/back.jpg",
+      img: "../../assets/images/imgCursos/back.jpg",
     },
     {
       categoria: "front",
@@ -62,7 +62,7 @@ let cursos = {
       escola: "Bootcamp dio",
       descricao:
         "Profissionais React node.Js Full Stack conseguem solucionar uma grande gama de problemas tecnológicos que vão da navegação do usuário até o sistema de backoffice, dados e suas integrações. Profissionais com o perfil Full Stack são muito valorizados, não só pelo seu conhecimento técnico, mas também por facilitarem a comunicação entre as áreas que participam de um projeto, um intermediador, que agiliza as soluções",
-      img: "../../../assets/images/imgCursos/front.jpg",
+      img: "../../assets/images/imgCursos/front.jpg",
     },
     {
       categoria: "dados",
@@ -70,7 +70,7 @@ let cursos = {
       escola: "Bootcamp dio",
       descricao:
         "O currículo de Engenharia de Dados apresenta aos alunos a amplitude da tecnologia em nuvem com conceitos, laboratórios práticos, avaliações e um projeto fundamental sobre tópicos como infraestrutura em nuvem, big data (Data Lake e Data Warehouse), Processo e Modelagem de Dados em Cloud com a utilização do Hadoop e Spark e as bibliotecas Pandas e PySpark do Python.",
-      img: "../../../assets/images/imgCursos/banco.jpg",
+      img: "../../assets/images/imgCursos/banco.jpg",
     },
     {
       categoria: "dados",
@@ -78,7 +78,7 @@ let cursos = {
       escola: "Bootcamp dio",
       descricao:
         "O currículo de Engenharia de Dados apresenta aos alunos a amplitude da tecnologia em nuvem com conceitos, laboratórios práticos, avaliações e um projeto fundamental sobre tópicos como infraestrutura em nuvem, big data (Data Lake e Data Warehouse), Processo e Modelagem de Dados em Cloud com a utilização do Hadoop e Spark e as bibliotecas Pandas e PySpark do Python.",
-      img: "../../../assets/images/imgCursos/banco.jpg",
+      img: "../../assets/images/imgCursos/banco.jpg",
     },
     {
       categoria: "dados",
@@ -86,7 +86,7 @@ let cursos = {
       escola: "Bootcamp dio",
       descricao:
         "O currículo de Engenharia de Dados apresenta aos alunos a amplitude da tecnologia em nuvem com conceitos, laboratórios práticos, avaliações e um projeto fundamental sobre tópicos como infraestrutura em nuvem, big data (Data Lake e Data Warehouse), Processo e Modelagem de Dados em Cloud com a utilização do Hadoop e Spark e as bibliotecas Pandas e PySpark do Python.",
-      img: "../../../assets/images/imgCursos/banco.jpg",
+      img: "../../assets/images/imgCursos/banco.jpg",
     },
     {
       categoria: "dados",
@@ -94,7 +94,7 @@ let cursos = {
       escola: "MIT",
       descricao:
         "O currículo de Engenharia de Dados apresenta aos alunos a amplitude da tecnologia em nuvem com conceitos, laboratórios práticos, avaliações e um projeto fundamental sobre tópicos como infraestrutura em nuvem, big data (Data Lake e Data Warehouse), Processo e Modelagem de Dados em Cloud com a utilização do Hadoop e Spark e as bibliotecas Pandas e PySpark do Python.",
-      img: "../../../assets/images/imgCursos/banco.jpg",
+      img: "../../assets/images/imgCursos/banco.jpg",
     },
     {
       categoria: "dados",
@@ -102,7 +102,7 @@ let cursos = {
       escola: "USP",
       descricao:
         "O currículo de Engenharia de Dados apresenta aos alunos a amplitude da tecnologia em nuvem com conceitos, laboratórios práticos, avaliações e um projeto fundamental sobre tópicos como infraestrutura em nuvem, big data (Data Lake e Data Warehouse), Processo e Modelagem de Dados em Cloud com a utilização do Hadoop e Spark e as bibliotecas Pandas e PySpark do Python.",
-      img: "../../../assets/images/imgCursos/banco.jpg",
+      img: "../../assets/images/imgCursos/banco.jpg",
     },
   ],
 };
@@ -162,8 +162,7 @@ function filterCategoria(value) {
   elements.forEach((element) => {
     // display de todos os cards
     if (value == "all") {
-      element.classList.remove("hide");
-    } else {
+      element.classList.remove("hide");git
       //checar os elementos por categorias
       if (element.classList.contains(value)) {
         element.classList.remove("hide");

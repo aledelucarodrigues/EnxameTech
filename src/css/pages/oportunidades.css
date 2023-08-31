@@ -31,6 +31,9 @@ h3 {
 #search-container input:focus {
   border-bottom-color: 2px solid red;
 }
+#buttons{
+  padding: 10px 11px;
+}
 #search-container button {
   padding: 0.5em 1em;
   margin-left: 0em;
@@ -99,7 +102,7 @@ h3 {
   display: flex;
   margin: 11px;
 }
-@media (max-width: 1141px) {
+@media (max-width: 4500px) {
   #cursos {
     display: grid;
     grid-template-columns: auto auto;
