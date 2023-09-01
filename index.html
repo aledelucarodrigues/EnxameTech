@@ -34,7 +34,7 @@
       width: 100%;
     }
     #card-index{
-      padding: 40px;
+      padding: 2vw;
     }
     #list-index{
       padding: 20px;
@@ -126,6 +126,10 @@
       {
         color: #003096;
       }
+      header>div.nav>ul>li>a:visited
+      {
+        color: #18130B;
+      }
       .atual
       {
         color: #FCA311 !important;
@@ -179,9 +183,9 @@
       #list-index ul li{
         width: 100%;
       }
-      .teste-index{
+      /* .teste-index{
         scroll-behavior: smooth;
-      }
+      } */
       .dropdown {
       position: relative;
       display: inline-block;
@@ -202,6 +206,11 @@
         display: block;
       }
 
+    }
+    a:hover
+    {
+      color: #003096 !important;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -275,36 +284,36 @@
       <img src="./assets/images/ImgHome/template.png" class="img-fluid" alt="Imagem responsiva">
     </div>
   </main>
-  <div class="container mt-4 mr-2">
+  <div class=" justify-content-center mt-2 mr-1">
     <div class="row justify-content-center">
-      <div class="col-md-4 mb-4">
+      <div class="row justify-content-center col-md-2 mb-2">
         <img src="./assets/images/ImgHome/1.png" alt="..." class="img-thumbnail zoom-effect">
       </div>
-      <div class="col-md-4 mb-4">
+      <div class="row justify-content-center col-md-2 mb-2">
         <img src="./assets/images/ImgHome/2.png" alt="..." class="img-thumbnail zoom-effect">
       </div>
-      <div class="col-md-4 mb-4">
+      <div class="row justify-content-center col-md-2 mb-2">
         <img src="./assets/images/ImgHome/3.png" alt="..." class="img-thumbnail zoom-effect">
       </div>
-      <div class="col-md-4 mb-4">
+      <div class="row justify-content-center col-md-2 mb-2">
         <img src="./assets/images/ImgHome/4.png" alt="..." class="img-thumbnail zoom-effect">
       </div>
-      <div class="col-md-4 mb-4">
+      <div class="row justify-content-center col-md-2 mb-2">
         <img src="./assets/images/ImgHome/5.png" alt="..." class="img-thumbnail zoom-effect">
       </div>
-      <div class="col-md-4 mb-4">
+      <div class="row justify-content-center col-md-2 mb-2">
         <img src="./assets/images/ImgHome/6.png" alt="..." class="img-thumbnail zoom-effect">
       </div>
     </div>
   </div>
  
-  <div  class="d-flex justify-content-around border mt-5" style="width: 100%; height: 100vh;" id="card-index">
-    <img src="./assets/images/ImgHome/index card.png" class="img-fluid mt-5 opcoes-index" alt="Imagem responsiva" style="width: 40%; height: 60%;">
+  <div  class="d-flex justify-content-around border mt-3" style="width: 100%; height: 100vh;" id="card-index">
+    <img src="./assets/images/ImgHome/index card.png" class="img-fluid mt-5 opcoes-index" alt="Imagem responsiva" style="width: 40vw; height: 50vh;">
     <div class="card text-center mt-5" style="width: 35rem; height: 80%;">
       <div class="card-body mt-5">
         <h5 class="card-title">🚀 Dê Asas ao Seu Futuro com a Enxame Tech! 🚀</h5>
         <p class="card-text mt-5">Você está pronto para desbravar os horizontes da tecnologia e se tornar um mestre na área? Prepare-se para uma jornada transformadora com a Enxame Tech!</p>
-        <a href="#" class="btn  mt-5 button-index-1 zoom-effect">Não perca a oportunidade!</a>
+        <a href="src/pages/oportunidades.html" class="btn  mt-5 button-index-1 zoom-effect">Não perca a oportunidade!</a>
       </div>
     </div>
 
@@ -316,7 +325,7 @@
   <div class="d-flex text-center" id="list-index">
   
     
-    <ul class="list-group list-group-light mb-3 mt-4 " style="width: 50%; height: 100vh;">
+    <ul id="porq" class="list-group list-group-light mb-3 mt-4 " style="width: 50%; height: 100vh;">
       
       <li class="list-group-item">
         <h5 class="fw-bold">🔥 Variedade de Cursos:</h5>
@@ -358,7 +367,7 @@
   </div>
 
 
-  <div class="container text-center py-5 shadow-lg p-3 mb-5 bg-white rounded teste-index">
+  <div id="caracteristicas" class="container text-center py-5 shadow-lg p-3 mb-5 bg-white rounded teste-index">
     <h1 class="mb-4">Ei, você tem essas características?</h1>
     <div class="d-flex">
       <div id="list-example" class="list-group text-index">
@@ -369,7 +378,8 @@
         <a class="list-group-item list-group-item-action link-index" href="#list-item-5">Feedback Construtivo</a>
       </div>
       <div class="text-index flex-grow-1 teste-index"> 
-        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example" style="max-height: 70vh; overflow-y: auto;">
+        <!-- <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example" style="max-height: 70vh; overflow-y: auto;"> -->
+          <div data-target="#list-example" data-offset="0" style="max-height: 70vh; overflow-y: auto;">          
           <h4 id="list-item-1" class="h4-index">Conhecimento e Proficiência</h4>
           <p>
             Um bom monitor deve ter um sólido entendimento do assunto que está sendo ensinado ou discutido. Isso permite que eles forneçam explicações claras, resolvam dúvidas e orientem os colegas de forma eficaz.
@@ -396,7 +406,7 @@
     <h5 class="mt-5">
       Se sim, seja um de nossos monitores! Faça a diferença, seja a inspiração de diversas pessoas!
     </h5>
-    <a href="#" class="btn  btn-lg mt-4 button-index-1 zoom-effect" >Inscreva-se agora!</a>
+    <a href="src/pages/cadastro.html" class="btn  btn-lg mt-4 button-index-1 zoom-effect" >VAMOS LÁ!</a>
   </div>
 
   
@@ -409,143 +419,6 @@
 
   <!-- Footer -->
 <footer class=" text-center text-white">
-  <section class="">
-    <!--Grid row-->
-    <div class="row">
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-4">
-        <h5 class="text-uppercase">Home</h5>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-white zoom-effect">Sign in</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-4">
-        <h5 class="text-uppercase">Oportunidades</h5>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-white zoom-effect">1</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white zoom-effect">2</a>
-          </li>
-         
-    
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-4">
-        <h5 class="text-uppercase">Blog</h5>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-white zoom-effect">Notícias</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white zoom-effect">Atualizações</a>
-          </li>
-          
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-4">
-        <h5 class="text-uppercase">Sobre Nós</h5>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-white zoom-effect">Politica</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white zoom-effect">Valores</a>
-          </li>
-          
-        </ul>
-      </div>
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </section>
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!-- Section: Social media -->
-    
-    <!-- Section: Social media -->
-
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
-            </p>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div class="form-outline form-white mb-4" >
-              <input type="email" id="form5Example21" class="form-control zoom-effect" placeholder="Escreva seu email:"/>
-              
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4 zoom-effect">
-              Subscribe
-            </button>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </form>
-    </section>
-    <section class="">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1 zoom-effect" href="https://twitter.com/home" role="button"
-        ><img src="./assets/images/ImgHome/icons redes/facebook.jpg" alt=""></i
-      ></a>
-
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1 zoom-effect" href="https://www.linkedin.com/" role="button"
-        ><img src="./assets/images/ImgHome/icons redes/github.png" alt=""></a>
-
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1 zoom-effect" href="https://www.facebook.com" role="button"
-        ><img src="./assets/images/ImgHome/icons redes/google.png" alt=""></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1 zoom-effect" href="https://github.com/" role="button"
-        ><img src="./assets/images/ImgHome/icons redes/instagram.jpg" alt=""></a>
-
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1 zoom-effect" href="https://www.google.com.br/" role="button">
-        <img src="./assets/images/ImgHome/icons redes/linkedin.png" alt=""></a>
-
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1 zoom-effect" href="instagram.com" role="button"
-        ><img src="./assets/images/ImgHome/icons redes/twitter.png" alt=""></a>
-    </section>
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
    
     <a class="text-white" href="#">© 2023 Enxame Tech. Todos os direitos reservados.</a>

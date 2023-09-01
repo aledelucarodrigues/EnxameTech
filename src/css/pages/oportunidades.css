@@ -4,10 +4,18 @@ h1 {
   margin: 26px;
 }
 h3 {
-  margin: 0;
+  margin: 10px 0px 24px 0px;
   font-size: 20px;
   font-family: Inter;
   font-weight: 400;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(68, 58, 58, 0.179);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #fca311;
+  border-radius: 14px;
 }
 
 * {
@@ -96,8 +104,18 @@ h3 {
   display: hidden;
 }
 
+.image-container{
+  width: 100%;
+  height: 100%;
+}
+.image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .card {
-  background-color: #d9d9d9;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2) !important;
+  background-color: #d9d9d957;
   margin-top: 1em;
   padding: 1em;
   border-radius: 5px;
@@ -114,7 +132,7 @@ h3 {
     flex-direction: column;
   }
 
-  img {
+  section>img {
     height: 225px;
     width: 100% !important;
   }
@@ -129,15 +147,15 @@ h3 {
     flex-direction: column;
   }
 
-  img {
+  section>img {
     height: 225px;
     width: 100% !important;
   }
 }
-img {
-  height: 255px;
 
-  width: 327px;
+section>img {
+
+  height: 255px;
 }
 
 .container {
@@ -146,9 +164,9 @@ img {
 }
 
 .container h5 {
-  font-weight: 500;
+  font-weight: 900;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
   margin: 23px;
   margin-bottom: 9px;
 }

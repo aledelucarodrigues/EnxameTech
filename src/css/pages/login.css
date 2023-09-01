@@ -154,6 +154,10 @@ input[type="radio"] {
 /* RESPOSIVIDADE */
 
 @media (min-width: 300px) {
+
+    .buttons {
+        gap: 10px;
+    }
     
     .buttons a {
         padding-bottom: 10px;
