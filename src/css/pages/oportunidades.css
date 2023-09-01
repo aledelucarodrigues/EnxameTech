@@ -114,7 +114,7 @@ h3 {
     flex-direction: column;
   }
 
-  img {
+  section>img {
     height: 225px;
     width: 100% !important;
   }
@@ -129,12 +129,12 @@ h3 {
     flex-direction: column;
   }
 
-  img {
+  section>img {
     height: 225px;
     width: 100% !important;
   }
 }
-img {
+section>img {
   height: 255px;
 
   width: 327px;
