@@ -4,10 +4,18 @@ h1 {
   margin: 26px;
 }
 h3 {
-  margin: 0;
+  margin: 10px 0px 24px 0px;
   font-size: 20px;
   font-family: Inter;
   font-weight: 400;
+}
+body::-webkit-scrollbar {
+  width: 20px;got
+  background-color: rgba(68, 58, 58, 0.179);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #fca311;
+  border-radius: 14px;
 }
 
 * {
@@ -97,7 +105,8 @@ h3 {
 }
 
 .card {
-  background-color: #d9d9d9;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2) !important;
+  background-color: #d9d9d957;
   margin-top: 1em;
   padding: 1em;
   border-radius: 5px;
@@ -135,9 +144,8 @@ h3 {
   }
 }
 img {
+  border-radius: 5px;
   height: 255px;
-
-  width: 327px;
 }
 
 .container {
