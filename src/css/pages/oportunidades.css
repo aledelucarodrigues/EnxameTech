@@ -123,7 +123,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
   }
 
-  img {
+  section>img {
     height: 225px;
     width: 100% !important;
   }
@@ -138,13 +138,14 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
   }
 
-  img {
+  section>img {
     height: 225px;
     width: 100% !important;
   }
 }
-img {
-  border-radius: 5px;
+
+section>img {
+
   height: 255px;
 }
 
