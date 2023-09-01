@@ -1,22 +1,38 @@
-
 body::-webkit-scrollbar {
   width: 6px;
-  
+
   background-color: rgba(68, 58, 58, 0.179);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #FCA311;
+  background-color: #fca311;
   border-radius: 14px;
 }
-
+.title {
+  color: #fca311;
+  animation: piscaPisca 2s infinite;
+}
+@keyframes piscaPisca {
+  0% {
+    color: #fca311;
+  }
+  100% {
+    color: #000000;
+  }
+  
+}
 h1,
 h2 {
   text-align: center;
   padding: 48px;
   margin: 26px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat";
   font-weight: 700;
   font-size: 2rem;
+}
+h5 {
+  text-align: center;
+
+  font-size: 18px;
 }
 h3 {
   margin: 0;
@@ -54,6 +70,10 @@ hr {
 .about__img {
   width: 100%;
 }
+.about__box h2 {
+ margin: 0;
+ padding: 0;
+}
 .about__img img {
   width: 100%;
   height: 100%;
@@ -72,7 +92,6 @@ hr {
   font-size: 23px;
 }
 .mvp__content {
-  border: solid 1px black;
   border-radius: 13px;
 }
 
@@ -94,7 +113,7 @@ hr {
 .mvp__content {
   padding: 9px;
   margin-bottom: 34px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px;
 }
 
 .about__missao {
@@ -118,12 +137,12 @@ hr {
   height: 26em;
   background-color: #fff;
   border-radius: 1em;
-  box-shadow: rgb(0 0 0 / 56%) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px;
   padding: 2em 1em;
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black !important ;
+
 
   margin: 0 2em;
 }
@@ -181,9 +200,10 @@ hr {
   cursor: pointer;
   transition: 0.4s;
   font-weight: 600;
+  transition: 1s ease all;
 }
 .icons__social__media i:hover {
-  color: #fca311;
+  color: #fca311 !important;
 }
 a:visited {
   color: black;
